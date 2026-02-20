@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: black;
+    color: cyan;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    color: red;
+    text-shadow: 0 0 20px red;
+}
+
+canvas {
+    background: #111;
+    display: block;
+    margin: auto;
+    border: 2px solid cyan;
+}
+
+.hud {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: black;
+    color: cyan;
+    border: 2px solid cyan;
+    cursor: pointer;
+}
+
+button:hover {
+    background: cyan;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
